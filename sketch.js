@@ -10,8 +10,8 @@ function draw() {
   rect(0, height - s, s, s);
   rect(width - s, 0, s, s);
   rect(width - s, height - s, s, s);
-  textAlign(CENTER, CENTER);
   textSize(50);
+  textAlign(CENTER, CENTER);
   text("XIAOLI", width / 2, height / 2);
 }
 
