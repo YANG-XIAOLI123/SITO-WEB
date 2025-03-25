@@ -10,9 +10,9 @@ function draw() {
   rect(0, height - s, s, s);
   rect(width - s, 0, s, s);
   rect(width - s, height - s, s, s);
-
-  text("XIAOLI", width / 2, height / 2);
+  textAlign(CENTER, CENTER);
   textSize(50);
+  text("XIAOLI", width / 2, height / 2);
 }
 
 function windowResized() {
