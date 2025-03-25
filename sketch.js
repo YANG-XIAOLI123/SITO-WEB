@@ -12,7 +12,7 @@ function draw() {
   rect(width - s, height - s, s, s);
   textSize(50);
   textAlign(CENTER, CENTER);
-  text("XIAOLI", width / 2, height / 2);
+  text("Xiaoli", width / 2, height / 2);
 }
 
 function windowResized() {
